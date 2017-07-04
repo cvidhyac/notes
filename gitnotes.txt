@@ -1,0 +1,25 @@
+git helper
+
+first time set up:
+
+git config --list
+git config --global user.name vidhya.chidambaram
+git config --global user.email vidhya.chidambaram@gmail.com
+
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
+
+Eclipse ignore settings:
+
+Window > Preferences > Team > Ignores Resources
+
+Patterns:
+*/.git/*
+.deployables
+.git
+.gitignore
+.settings
+target
+mvnw
+mvnw.cmd
+*.class
+
