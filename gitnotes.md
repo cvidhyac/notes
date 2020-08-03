@@ -29,7 +29,7 @@ List Methods : Cmd + F12
 Prompt - Ctrl + space
 Navigate back and forward from edit location : Cmd + Option + -> and cmd + Option + <-
 Step into source code - Fn + F4
-Format current file : Cmd + Option + L
+Format the current file : Cmd + Option + L
 Debugger - Fn + F8, Fn + F9
 
 
