@@ -8,12 +8,14 @@ git config --global user.email vidhya.chidambaram@gmail.com
 
 ### Set up IntelliJ shortcuts 
 
-I used eclipse as my first IDE for few years, and hate the IntelliJ shortcuts in mac, especially because i type
-very fast. 
+I used eclipse as my first IDE for few years, and prefer a two-key approach vs three-key 
+to memorize some of the IJ shortcuts. 
 
 * Plugins
 
 * Maven helper - gives eclipse style maven dependency analyzer
+* Rainbow Brackets
+* KeyPromoter X
 * IDEA -> preferences -> Build and deployment menu -> Buildtools -> Maven -> Use plugin registry
 
 * Key map shortcuts
@@ -21,13 +23,14 @@ very fast.
 Go to implementation - Cmd + I
 Find File : Cmd + Shift + O
 Find Anywhere : Cmd + Shift + F
-Search within a file : Cmd + f
+Search within a file : Cmd + F
 Replace : Cmd + R
 List Methods : Cmd + F12
 Prompt - Ctrl + space
 Navigate back and forward from edit location : Cmd + Option + -> and cmd + Option + <-
 Step into source code - Fn + F4
 Format current file : Cmd + Option + L
+Debugger - Fn + F8, Fn + F9
 
 
 ## Other useful laptop set up notes
