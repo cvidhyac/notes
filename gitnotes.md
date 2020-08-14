@@ -41,6 +41,8 @@ Debugger - Fn + F8, Fn + F9
 * Set up PS1 entry to show directory in mac
 * Set up Kerebros
 
+## SSH tool
+iterm (Ctrl + D for vertical split)
 
 Eclipse ignore settings:
 
