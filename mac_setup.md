@@ -68,4 +68,4 @@ mvnw.cmd
 
 
 ## Git repo scripts
-Refer - /notes/new_repo.sh
+Refer : [github_shortcuts.md](github_shortcuts.md)
