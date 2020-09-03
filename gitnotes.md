@@ -2,53 +2,59 @@
 
 ### first time Git set up:
 
+```
 git config --list
 git config --global user.name vidhya.chidambaram
 git config --global user.email vidhya.chidambaram@gmail.com
+```
 
-### Set up IntelliJ shortcuts 
+### IntelliJ Customizations
 
-I used eclipse as my first IDE for few years, and prefer a two-key approach vs three-key 
-to memorize some of the IJ shortcuts. 
+I used eclipse as my first IDE for few years, and windoze user for many many years.
+Hence prefer a two-key approach vs three-key on mac. 
 
-* Plugins
+### IntelliJ Plugins
 
 * Maven helper - gives eclipse style maven dependency analyzer
 * Rainbow Brackets
 * KeyPromoter X
 * IDEA -> preferences -> Build and deployment menu -> Buildtools -> Maven -> Use plugin registry
 
-* Key map shortcuts
+## Key map shortcuts
 
-Go to implementation - Cmd + I
-Find File : Cmd + Shift + O
-Find Anywhere : Cmd + Shift + F
-Search within a file : Cmd + F
-Replace : Cmd + R
-List Methods : Cmd + F12
-Prompt - Ctrl + space
-Navigate back and forward from edit location : Cmd + Option + -> and cmd + Option + <-
-Step into source code - Fn + F4
-Format the current file : Cmd + Option + L
-Debugger - Fn + F8, Fn + F9
+| Function | Value to change in Keymap preferences |
+|--------|----------|
+| Go to implementation | Cmd + I|
+| Find File | Cmd + Shift + O|
+| Find Anywhere | Cmd + Shift + F|
+| Search within a file | Cmd + F|
+| Replace | Cmd + R|
+| List Methods | Cmd + F12|
+| Autocomplete | Option + space|
+| Navigate back forth in tabs | Cmd + Option + -> and cmd + Option + <-|
+| Step into source code | Fn + F4|
+| Format the current file | Cmd + Option + L |
+| Remove Unused imports | Option + o |
+| Debugger | Fn + F8, Fn + F9 |
 
 
 ## Other useful laptop set up notes
 
 * Install/brew/pip all Softwares/packages
-* Set up MAC LSCOLORS for better view
-* Set up Git autocomplete script
-* Set up PS1 entry to show directory in mac
-* Set up Kerebros
+* Remember to Set up MAC LSCOLORS for better view
+* Remember to Set up Git autocomplete script
+* Remember Set up PS1 entry to show directory in mac
+* Set up Kerebros (if the company provides one)
 
 ## SSH tool
 iterm (Ctrl + D for vertical split)
 
-Eclipse ignore settings:
+## Eclipse ignore settings:
 
 Window > Preferences > Team > Ignores Resources
 
-Patterns:
+### Ignore Patterns
+```
 */.git/*
 .deployables
 .git
@@ -58,6 +64,8 @@ target
 mvnw
 mvnw.cmd
 *.class
+```
+
 
 ## Git repo scripts
 Refer - /notes/new_repo.sh
