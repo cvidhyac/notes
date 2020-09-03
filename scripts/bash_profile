@@ -1,0 +1,25 @@
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+export PYTHON_HOME=/usr/local/opt/python/libexec/bin
+export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+export SECRETS=/Users/vchidamb/Softwares/git/platform-secrets/build/install/platform-git-secrets/bin
+export GO_HOME=/usr/local/go/bin/go
+export OC_CLI=/Users/vchidamb/Softwares/git/origin/_output/local/bin/darwin/amd64
+export MONARCH_HOME=/Users/vchidamb/Softwares/git/monarch/bin/build/install/monarch-bin/bin
+export SED_HOME=/usr/bin/sed
+export PATH=$PATH:$PYTHON_HOME:$GO_HOME/bin:$SECRETS:$JAVA_HOME/jre/bin:$OC_CLI:$SED_HOME:$MONARCH_HOME:$M2_HOME/bin
+
+# Git branch in prompt.
+
+parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
+
+# Git branch auto-complete
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
