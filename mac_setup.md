@@ -69,3 +69,7 @@ mvnw.cmd
 
 ## Git repo scripts
 Refer : [github_shortcuts.md](github_shortcuts.md)
+
+
+## Brew packages
+Refer : [brew_dump.md](brew_dump.md)
