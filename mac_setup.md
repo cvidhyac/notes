@@ -41,6 +41,13 @@ I prefer creating my own keymaps in intellij where i cannot remember how the mac
 | Open Terminal                            | Cmd + ,                                  |
 | Increase or decrease font size within IJ | increase - Opt + F4, decrease - Opt + F2 |
 
+## IntelliJ gotchas
+- Invalidate cache and restart if nothing works.
+- Delete your local .m2 repository if IJ tries to use a different dependency locally available in your m2 repo.
+- Enable Annotation Processing if using lombok or any other autogenerator profiles.
+
+## Screensharing gotchas
+- System preferences -> Displays -> Scaled -> Choose lower resolution for bigger font size.
 
 ## Other useful laptop set up notes
 
