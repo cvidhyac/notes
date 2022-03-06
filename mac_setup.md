@@ -22,20 +22,24 @@ Hence, I prefer a two-key approach vs three-key on my mac book.
 
 ## Key map shortcuts
 
-| Function | Value to change in Keymap preferences |
-|--------|----------|
-| Go to implementation | Cmd + I|
-| Find File | Cmd + Shift + O|
-| Find Anywhere | Cmd + Shift + F|
-| Search within a file | Cmd + F|
-| Replace | Cmd + R|
-| List Methods | Cmd + F12|
-| Autocomplete | Option + space|
-| Navigate back forth in tabs | Cmd + Option + -> and cmd + Option + <-|
-| Step into source code | Fn + F4|
-| Format the current file | Cmd + Option + L |
-| Remove Unused imports | Option + o |
-| Debugger | Fn + F8, Fn + F9 |
+I prefer creating my own keymaps in intellij where i cannot remember how the mac keyboard system works.
+
+| Function                                 | Value to change in Keymap preferences    |
+|------------------------------------------|------------------------------------------|
+| Go to implementation                     | Cmd + I                                  |
+| Find File                                | Cmd + Shift + O                          |
+| Find Anywhere                            | Cmd + Shift + F                          |
+| Search within a file                     | Cmd + F                                  |
+| Replace                                  | Cmd + R                                  |
+| List Methods                             | Cmd + F12                                |
+| Autocomplete                             | Option + space                           |
+| Navigate back forth in tabs              | Cmd + Option + -> and cmd + Option + <-  |
+| Step into source code                    | Fn + F4                                  |
+| Format the current file                  | Cmd + Option + L                         |
+| Remove Unused imports                    | Option + o                               |
+| Debugger                                 | Fn + F8, Fn + F9                         |
+| Open Terminal                            | Cmd + ,                                  |
+| Increase or decrease font size within IJ | increase - Opt + F4, decrease - Opt + F2 |
 
 
 ## Other useful laptop set up notes
