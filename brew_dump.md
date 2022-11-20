@@ -22,7 +22,7 @@ This will show the list of auto-completion packages available, install intereste
 - activemq
 - akamai
 - ansible
-- bash-completion
+- bash-completion@2
 - cask
 - coreutils
 - gcc
@@ -47,3 +47,6 @@ This will show the list of auto-completion packages available, install intereste
 - shyaml
 - telnet
 - wget
+
+## kubectl set up
+https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/
