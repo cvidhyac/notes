@@ -10,6 +10,7 @@ brew leaves to see packages without dependencies
 [  ] activemq
 [  ] akamai
 [  ] ansible
+[  ] bash-completion
 [  ] cask
 [  ] coreutils
 [  ] gcc
@@ -22,7 +23,14 @@ brew leaves to see packages without dependencies
 [  ] httpie
 [  ] jq
 [  ] maven
+[  ] mongodb/brew/mongodb-community
+[  ] mongodb/brew/mongodb-community-shel
 [  ] node
+[  ] openshift-cli
+[  ] operator-sdk
+[  ] podman
 [  ] pyenv
 [  ] rpm
+[  ] shyaml
 [  ] telnet
+[  ] wget
