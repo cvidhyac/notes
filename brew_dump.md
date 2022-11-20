@@ -1,11 +1,23 @@
-## Brew dump
+## Brew Notes
+
+### Useful Brew commands
 
 Run the command : 
 ```
-brew leaves to see packages without dependencies
+brew leaves
+
+To observe packages without dependencies, locally installed in your system
 ```
 
-### Packages to install
+Run the command:
+
+```
+brew search completion
+
+This will show the list of auto-completion packages available, install interested ones, eg. docker-completion, bash-completion
+```
+
+### Brew Packages to install
 
 - activemq
 - akamai
