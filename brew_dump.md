@@ -34,6 +34,7 @@ This will show the list of auto-completion packages available, install intereste
 - heimdal
 - httpie
 - jq
+- kubectl
 - maven
 - mongodb/brew/mongodb-community
 - mongodb/brew/mongodb-community-shel
